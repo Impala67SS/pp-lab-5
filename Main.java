@@ -12,8 +12,8 @@ public class Main {
             System.out.println("Age: "+person.getAge());
 
             int sum = MathUtils.add(12, 50);
+            System.out.println("Sum: " + sum);
            
-
             Messenger messenger = new EmailMessenger();
             String message = "Dobry Den. Suma: " + sum;
             messenger.sendMessage(message);
